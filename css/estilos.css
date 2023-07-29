@@ -1,0 +1,39 @@
+body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+.navbar{
+    background-color: #a0664f;
+}
+p.texto-justificado{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+p.texto-centralizado{
+    text-align: center; 
+}
+h6{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h6.justificado{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+p.truncar-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
